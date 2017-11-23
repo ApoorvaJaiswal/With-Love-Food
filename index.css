@@ -1,0 +1,95 @@
+a{
+	text-decoration:none;
+	color:inherit;
+}
+
+#logo{
+	font-size:30px;
+	font-family:Calibri;
+	margin:10px;
+	margin-top:30px;
+	margin-left:20px;
+	letter-spacing:4px;
+	margin-bottom:30px;
+	float:left;
+	color:white;	
+}
+#titleQuote{
+	clear:both;
+	background:white;
+	height:50px;
+	width:700px;
+	margin-left:300px;
+	font-size:30px;
+	font-family:Calibri;
+	color:gray;
+	text-align:center;
+	letter-spacing:2px;
+}
+body{
+	background-image:url('im3.jpg');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+#im{
+	clear:both;
+	margin-top:30px;
+	width:1000px;
+	height:350px;
+}
+#topPart{
+	float:right;
+	margin-top:40px;
+	margin-left:400px;
+	margin-bottom:70px;
+}
+#topPart div{
+	margin-top:5px;
+	margin-right:10px;
+	display:inline;
+	font-family:Calibri;
+	font-size:20px;
+	color:white;
+}
+#home, #about, #contact, #dashboard,#news,#logout{
+	margin-left:15px;
+	margin-right:15px;
+	padding:6px;
+	letter-spacing:2px;
+}
+#home:hover, #about:hover, #contact:hover, #dashboard:hover,#logout:hover{
+	outline:1px solid white;
+}
+#topSearch{
+	color:white;
+	font-family:Calibri;
+	letter-spacing:3px;
+	font-size:30px;
+	text-align:center;
+	margin-top:30px;
+	margin-left:-35px;
+}
+.foods{
+	display:inline-block;
+	width:350px;
+	height:455px;
+	margin-top:35px;
+	margin-bottom:40px;
+	margin-left:40px;
+	margin-right:40px;
+	padding:5px;
+	background:rgba(128,128,128,0.8);
+}
+.foodsTitle{
+	color:white;
+	background:none;
+	font-family:Calibri;
+	font-size:20px;
+	text-align:center;
+	width:290px;
+	height:45px;
+	margin-top:7px;
+	vertical-align:middle;
+	margin-left:20px;
+	padding:5px;
+}
