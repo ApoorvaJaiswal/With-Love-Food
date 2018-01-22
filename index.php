@@ -55,8 +55,12 @@ With Love-Food
 			$sqlCheck = "SELECT * FROM recipes";
 			$retvalCheck= mysql_query( $sqlCheck, $conn);
 			$i=0;
+			$file = fopen("data.csv","w");
+			$titles = array("Title","Image","Recipe");
+			fputcsv($file, $titles);
 			while($row=mysql_fetch_array($retvalCheck,MYSQL_ASSOC))
 			{
+				fputcsv($file, $row);
 				$title=$row['Title'];
 				$imagePath=$row['Image'];
 				
@@ -70,6 +74,7 @@ With Love-Food
 		<?php
 		$i++;
 			}
+			fclose($file);
 		?>
 </body>
 </html>
